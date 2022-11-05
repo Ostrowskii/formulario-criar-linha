@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+     
+    <form action="" method="get">
+        <h3>Bem vindo ao OnDoutor</h3>
+        <p>Vamos fazer o seu cadastro?</p>
+
+        <label>Nome.:</label> <br>
+        <input type="text" name="name" id="name" autocomplete="off" ><br><br>
+        
+        <label>Idade.:</label> <br>
+        <input type="number" name="age" id="age" min="1" max="150"><br><br>
+        <label>Anime Favorito</label> <br>
+        <input type="text" name="animeFavorito" id="animeFavorito" autocomplete="off"><br><br>
+        
+        <input type="radio" name="sexo" id="feminino" value="feminino"> 
+        <label for="feminino">feminino</label> <br>
+        <input type="radio" name="sexo" id="masculino" value="masculino"> 
+        <label for="masculino">masculino</label><br><br>
+        
+        <button type="submit" name="send" id="send">Submit</button>
+        <input type="reset" value="limpar">
+    </form>
+      
+      <table id="table">
+          <tr>
+            <th>nome</th>
+            <th>idade</th>
+            <th>Anime favorito</th>
+            <th>Sexo</th>
+          </tr>
+          
+      </table>
+      
+    <script src="scripts.js"></script>
+  </body>
+</html>
